@@ -28,14 +28,6 @@ const config = {
             }
           },
         {
-            name: 'chrome-beta',
-            testMatch: '**/*.e2e.spec.js', // only run e2e tests
-            use: {
-                browserName: 'chromium',
-                channel: 'chrome-beta'
-            }
-        },
-        {
             name: 'firefox',
             testMatch: '**/*.e2e.spec.js', // only run e2e tests
             use: {
